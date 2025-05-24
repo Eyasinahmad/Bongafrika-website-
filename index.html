@@ -2,28 +2,108 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>বঙ্গআফ্রিকা ইসলামী প্রজাতন্ত্র</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>বঙ্গআফ্রিকা ইসলামী প্রজাতন্ত্র</title>
+  <style>
+    body {
+      font-family: 'SolaimanLipi', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0a3d62;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #3c6382;
+    }
+    nav a {
+      padding: 15px;
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #0a3d62;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #3c6382;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #0a3d62;
+      color: white;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>স্বাগতম বঙ্গআফ্রিকা ইসলামী প্রজাতন্ত্রে</h1>
-        <img src="images/raja.jpg" alt="রাজা" width="200">
-    </header>
-    <main>
-        <p>এই ওয়েবসাইটটি বঙ্গআফ্রিকা ইসলামী প্রজাতন্ত্রের সরকারী তথ্য উপস্থাপন করে।</p>
-        <audio controls>
-            <source src="audio/anthem.mp3" type="audio/mp3">
-            আপনার ব্রাউজার অডিও প্লে করতে পারে না।
-        </audio>
-        <nav>
-            <ul>
-                <li><a href="docs/constitution-chapter-1.html">সংবিধান অধ্যায় ১</a></li>
-                <li><a href="docs/constitution-chapter-2.html">সংবিধান অধ্যায় ২</a></li>
-            </ul>
-        </nav>
-    </main>
+  <header>
+    <h1>বঙ্গআফ্রিকা ইসলামী প্রজাতন্ত্র</h1>
+    <p>"একতা, ঈমান, স্বাধীনতা"</p>
+  </header>
+  <nav>
+    <a href="#home">হোম</a>
+    <a href="#about">আমাদের সম্পর্কে</a>
+    <a href="#constitution">সংবিধান</a>
+    <a href="#citizenship">নাগরিকত্ব</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+  <main>
+    <section id="home">
+      <h2>স্বাগতম!</h2>
+      <p>বঙ্গআফ্রিকা ইসলামী প্রজাতন্ত্র একটি স্বাধীন ইসলামী রাজতান্ত্রিক মাইক্রোনেশন যা বির তাওয়িল অঞ্চলে প্রতিষ্ঠিত।</p>
+    </section>
+    <section id="about">
+      <h2>আমাদের সম্পর্কে</h2>
+      <p>আমাদের রাজতন্ত্র ইসলামী শরিয়াহর ভিত্তিতে পরিচালিত হয়। রাজধানী: তাবিলি। শাসক: মহামান্য বাদশাহ।</p>
+    </section>
+    <section id="constitution">
+      <h2>সংবিধান</h2>
+      <p>আমাদের সংবিধান ইসলামী আদর্শে রচিত এবং সুবিচার, স্বাধীনতা, এবং জাতীয় গৌরব নিশ্চিত করে।</p>
+    </section>
+    <section id="citizenship">
+      <h2>নাগরিকত্ব আবেদন</h2>
+      <form>
+        <label>পুরো নাম:</label>
+        <input type="text" required />
+        <label>ইমেইল:</label>
+        <input type="email" required />
+        <label>আপনার উদ্দেশ্য:</label>
+        <textarea rows="4"></textarea>
+        <button type="submit">জমা দিন</button>
+      </form>
+    </section>
+    <section id="contact">
+      <h2>যোগাযোগ করুন</h2>
+      <p>ইমেইল: contact@bongafrika.gov<br />ঠিকানা: তাবিলি, বির তাওয়িল</p>
+    </section>
+  </main>
+  <footer>
+    &copy; ২০২৫ বঙ্গআফ্রিকা ইসলামী প্রজাতন্ত্র
+  </footer>
 </body>
 </html>
